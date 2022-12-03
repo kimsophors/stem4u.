@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <tittle> Online learnning website </tittle>
+        <link rel="stylesheet" href="style.css">
+        <label id="dark-change"></label>
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                font-family: san-sarif;
+            }
+            main{
+                margin: 5vh 15%;
+            }
+            h1{
+                font-size: 40px;
+                font-weight: 400;
+                text-align: center;
+
+            }
+            p{
+                text-align: justify;
+                font-size: 18px;
+            }
+            label{
+                position: absolute;
+                width: 45px;
+                height:22px;
+                right: 20px;
+                top:20px;
+                border: 2px solid;
+                border-radius: 20px;
+
+            }
+            label:before{
+                position:absolute;
+                content:"";
+                width: 20px;
+                height: 20px;
+                left:1px;
+                top: 1px;
+                border-radius: 50%;
+                cursor: pointer;
+                background:#000;
+                transition: 0.4s;
+            }
+           label.active:before{
+            left: 24px;
+            background:#fff;
+            
+            }
+            body.night{
+                background: #000;
+                color: #fff;
+            }
+        </style>
+
+
+    </head>
+        <body>
+
+            <header>
+                <label id="dark-change"></label>
+            </header>
+            <main>
+                <div id="respon">
+                </div>
+            </main>
+
+
+            <script>
+                 var content = document.getElementByTagName('body')[0];
+                 var darkMode = document.getElementById('dark-change');
+                 darkMode.addEventListener('click', function(){
+                    darkMode.classlist.toggle('active');
+                    content.classlist.toggle('night');
+                 })
+            </script>
+
+                <div class="main">
+                    <div class="navbar">
+                        <div class="icon">
+                            <img src="logo.png" class="hello">
+                        </div>
+
+
+                        <div class="menu">
+                            <ul>
+                                <li><a href="#">HOME</a></li>
+                                <li><a href="#">MENU</a></li>
+                                <li><a href="#">ABOUT </a></li>
+                                <li><a href="#">USAGE</a></li>
+                                <li><a href="#">CONTACT</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="search">
+                            <input class="srch" type="search" name=""placeholder="Type To text">
+                            <a href="#"> <button class="btn"> Search</button></a>
+                        </div>
+                        </div>
+
+
+                        <div class="content">
+                            <h1> STEM4U  <br><span>Online learning  </span><br> Stem Subject</h1>
+                            <p class="par">Learning with the "clear level", "Quality learning"<br>
+                                & "Get money" feeling enjoyable 
+                                <br>and motivation during learning</p>
+                                <buttton class="cn"><a href="#">JOINT US</a></buttton>
+                                <div class="form">
+                                    <h2> Login Here</h2>
+                                    <input type="email" name="email" placeholder="Enter Email Here">
+                                    <input type="password" name=""placeholder="Enter Password Here">
+                                    <button class="btnn"><a href="#">Login</a></button>
+
+                                    <p class="link"> Don't have an account<br>
+                                    <a href="#"> Sign up</a> here </a></p>
+                                    <p class="liw">Log in with </p>
+
+                                    <div class="icons">
+                                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                                        <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                                        <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+                                        
+                                    </div>
+
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+
+                <hr style="background-color:powderblue;">
+            <div class="space-top-100"></div>
+            <div style="width: 1200px; margin: 100px ;">
+            <hr style="width: 30px; height: 5px; margin-left: 0px; background-color: cornflowerblue;">
+            <h2><p style ="color: royalblue;"><h2> The sample of function in our App</h2><br>
+             <h4> Function for content creator</h4>
+        
+             <table style="width: 100%;" border="0">
+                
+                    <tr>
+                        <td>
+                            <div style="border: 1px solid #d4d4d4; padding: 10px;">
+                            <center>
+                                <img src="1.png" width="290px"; height="626x">
+            
+                            </center>
+                              <center>
+                            <p style="color: royalblue;"> <b>First download App to your Phone or Pc</b></p>
+                            <p style="color:black;"> Then you will see the feacture  <br> you can sign and regester <br>waterfall</p>                                              
+                            </div>
+                        </center>
+                        </td>
+
+
+                        <td> 
+                            <div style="margin-right: 20px; margin-left: 20px;">
+            
+                            <div style="border: 1px solid #d4d4d4; padding: 10px;">
+                            <center>
+                                <img src="2.png" width="290px"; height="626px">
+            
+                            </center>
+                             <center>
+                            <p style="color: royalblue;"><b> Option</b></p>
+                            <p style="color: black;"> After choose registrar you may<br> choose to be Teacher <br>or learner</p>
+                        </center>   
+                        </div>
+                            </div>
+                        </td>
+
+
+                    <td>                
+                            <div style="margin-right: 20px; margin-left: 20px;">
+                            <div style="border: 1px solid #d4d4d4; padding: 10px;">
+                            <center>
+                                <img src="3.png" width="290px"; height="626px">
+                            </center>
+                            <center>
+                            <p style="color: royalblue"><b> For content creator</b></p>
+                            <p style="color: black;"> <br> Just fill out the information<br> That require</p>
+                        </center>
+                        </div>
+                            </div>
+                        </td>
+
+
+                        <td>
+                    <div style="margin-right: 20px; margin-left: 20px;">
+                        <div style="border: 1px solid #d4d4d4; padding: 10px;">
+                        <center>
+                            <img src="4.png" width="290px"; height="626px">
+                        </center>
+                        <center>
+                        <p style ="color: royalblue;"><b> Fill in Password</b></p>
+                        <p style="color: black;"> Fill in the password number <br>in your message or email <br>that you recieved.</p>
+                         </center>
+                    </div>
+                </div>
+            </td>
+
+
+        </div>
+    </td>
+    </tr>
+</table>
+</div>
+
+                    <div class="space-top-50"></div>
+                    <div style="width: 1200px; margin: 100px ;">
+                        <center>
+                     <h2 style ="color: royalblue;"> 
+                      Function for content creator</h2>
+                        </center>
+                
+                     <table style="width: 100%;" border="0">
+                    <td>                
+                        <div style="margin-right: 20px; margin-left: 20px;">
+                        <div style="border: 1px solid #d4d4d4; padding: 10px;">
+                        <center>
+                            <img src="5.png" width="290px"; height="626px">
+                        </center>
+                        <center>
+                        <p style="color: royalblue"><b> Verify</b></p>
+                        <p style="color: black;"> Please check out your mail box <br> or message to get the<br> Verify password.</p>
+                    </center>
+                    </div>
+                        </div>
+                    </td>
+
+                    <td>                
+                        <div style="margin-right: 20px; margin-left: 20px;">
+                        <div style="border: 1px solid #d4d4d4; padding: 10px;">
+                        <center>
+                            <img src="1c.png" width="290px"; height="626px">
+                        </center>
+                        <center>
+                        <p style="color: royalblue"><b> Home feature</b></p>
+                        <p style="color: black;"> At the home feacture it will  <br> showing all the course you <br>  can choose and enroll.</p>
+                        
+                        </center>
+                    </div>
+                        </div>
+                    </td>
+
+                    <td>                
+                        <div style="margin-right: 20px; margin-left: 20px;">
+                        <div style="border: 1px solid #d4d4d4; padding: 10px;">
+                        <center>
+                            <img src="2c.png" width="290px"; height="626px">
+                        </center>
+                        <center>
+                        <p style="color: royalblue"><b> Wallet</b></p>
+                        <p style="color: black;"> This feacture you might see the <br> Balanced of money that you have<br> </p>and other information.
+                        </center>
+                    </div>
+                        </div>
+                    </td>
+
+
+                    <td>                
+                        <div style="margin-right: 20px; margin-left: 20px;">
+                        <div style="border: 1px solid #d4d4d4; padding: 10px;">
+                        <center>
+                            <img src="3c.png" width="290px"; height="626px">
+                        </center>
+                        <center>
+                        <p style="color: royalblue"><b> Cattegory</b></p>
+                        <p style="color: black;"> This feacture you may see <br> the many course <br> related to Stem .</p>
+                         </center>
+                    </div>
+                        </div>
+                    </td>
+
+
+                </div>
+            </td>
+            </tr>
+        </table>
+    </div>
+
+
+    <div style="width: 1200px; margin: 100px ;">
+        <hr style="width: 30px; height: 5px; margin-left: 0px; background-color: cornflowerblue;">
+    
+    <center> 
+      
+        
+            <h2><p style ="color: royalblue;">
+      Function for content creator</h2></p></center>  
+
+                    <td>                
+                        
+                        
+                        <div style="border: 0px solid #d4d4d4; padding: 0px;">
+                        <center>
+                            <img src="4c.png" width="290px"; height="626px">
+                        </center>
+                         <center>
+                        <p style="color: royalblue"> <b>Accout</b></p>
+                        <p style="color: black;"> This fuction you may see a mount of <br>  video that you have been upload<br>the followe and subcriber. </p>
+                    
+                    </center>
+                </div>
+                        </div>
+                    </td>
+                </div>
+            </td>
+            </tr>
+        </table>
+    </div>
+                     
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="space-top-100"></div>
+    <div style="width: 1200px; margin: 100px ;">
+    <hr style="width: 30px; height: 5px; margin-left: 0px; background-color: cornflowerblue;">
+
+ <h2 style ="color: royalblue;"></p>The sample of function in our App</h2><br>
+     <h4> Function for learner</h4>
+
+     <table style="width: 100%;" border="0">
+        
+            <tr>
+                <td>
+                    <div style="border: 1px solid #d4d4d4; padding: 10px;">
+                    <center>
+                        <img src="1.png" width="290px"; height="626x">
+    
+                    </center>
+    
+                     <center>
+                            <p style="color: royalblue;"> <b>First download App to your Phone or Pc</b></p>
+                            <p style="color:black;"> Then you will see the feacture  <br> you can sign and regester. </p>                                              
+                            </div>
+                        </center>
+                </td>
+
+
+                <td> 
+                    <div style="margin-right: 20px; margin-left: 20px;">
+    
+                    <div style="border: 1px solid #d4d4d4; padding: 10px;">
+                    <center>
+                        <img src="2.png" width="290px"; height="626px">
+    
+                    </center>
+                    <center>
+                        <p style="color: royalblue;"><b> Option</b></p>
+                        <p style="color: black;"> After choose registrar you may<br> choose to be Teacher <br>or learner</p>
+                    </center>   
+
+                    </div>
+                    </div>
+                </td>
+
+
+            <td>                
+                    <div style="margin-right: 20px; margin-left: 20px;">
+                    <div style="border: 1px solid #d4d4d4; padding: 10px;">
+                    <center>
+                        <img src="stu.png" width="290px"; height="626px">
+                    </center>
+                    <center>
+                        <p style="color: royalblue"><b> For Learner</b></p>
+                        <p style="color: black;"> <br> Just fill out the information<br> That require.</p>
+                    </center>
+                    
+                </div>
+                    </div>
+                </td>
+
+
+                <td>
+            <div style="margin-right: 20px; margin-left: 20px;">
+                <div style="border: 1px solid #d4d4d4; padding: 10px;">
+                <center>
+                    <img src="4.png" width="290px"; height="626px">
+                </center>
+                <center>
+                    <p style ="color: royalblue;"><b>  Password</b></p>
+                    <p style="color: black;"> Fill in the password and <br> <br>confirm password.</p>
+                     </center>
+               
+
+            </div>
+        </div>
+    </td>
+
+
+</div>
+</td>
+</tr>
+</table>
+</div>
+
+            <div class="space-top-100"></div>
+            <div style="width: 1200px; margin: 100px ;">
+            <hr style="width: 30px; height: 5px; margin-left: 0px; background-color: cornflowerblue;">
+            <center>
+                <h2 style ="color: royalblue;">
+             
+              Function for Learner</h2>
+            </center>
+        
+             <table style="width: 100%;" border="0">
+            <td>                
+                <div style="margin-right: 20px; margin-left: 20px;">
+                <div style="border: 1px solid #d4d4d4; padding: 10px;">
+                <center>
+                    <img src="5.png" width="290px"; height="626px">
+                </center>
+                <center>
+                    <p style="color: royalblue"><b> Verify</b></p>
+                    <p style="color: black;"> Please check out your mail box <br> or message to get the<br> Verify password.</p>
+                </center>
+            </div>
+                </div>
+            </td>
+
+            <td>                
+                <div style="margin-right: 20px; margin-left: 20px;">
+                <div style="border: 1px solid #d4d4d4; padding: 10px;">
+                <center>
+                    <img src="10.png" width="290px"; height="626px">
+                </center>
+                <center>
+                    <p style="color: royalblue"><b> Home feature</b></p>
+                    <p style="color: black;"> At the home feacture it will  <br> showing all the course you <br>  can choose and enroll.</p>
+                    
+                    </center>
+            </div>
+                </div>
+            </td>
+
+            <td>                
+                <div style="margin-right: 20px; margin-left: 20px;">
+                <div style="border: 1px solid #d4d4d4; padding: 10px;">
+                <center>
+                    <img src="4s.png" width="290px"; height="626px">
+                </center>
+                <center>
+                    <p style="color: royalblue"><b> Wallet</b></p>
+                    <p style="color: black;"> This feacture is store the Balanced <br> of money that you have<br> </p>and necessary information.
+                    </center>
+            </div>
+                </div>
+            </td>
+
+
+            <td>                
+                <div style="margin-right: 20px; margin-left: 20px;">
+                <div style="border: 1px solid #d4d4d4; padding: 10px;">
+                <center>
+                    <img src="8.png" width="290px"; height="626px">
+                </center>
+                <center>
+                    <p style="color: royalblue"><b> Cattegory</b></p>
+                    <p style="color: black;"> This feacture you may see <br> the many course <br> related to Stem .</p>
+                     </center>
+            </div>
+                </div>
+            </td>
+
+
+        </div>
+    </td>
+    </tr>
+</table>
+</div>
+
+
+<div class="space-top-100"></div>
+<div style="width: 1200px; margin: 100px ;">
+<hr style="width: 30px; height: 5px; margin-left: 0px; background-color: cornflowerblue;">
+<Center>
+<h2 style ="color: royalblue;">
+ Function for learner.</h2>
+</Center>
+
+<table style="width: 100%;" border="0">
+
+
+            <td>                
+                <div style="margin-right: 20px; margin-left: 20px;">
+                <div style="border: 1px solid #d4d4d4; padding: 10px;">
+                <center>
+                    <img src="9.png" width="290px"; height="626px">
+                </center>
+               
+                <Center>
+                    <p style="color: royalblue"> <b>Account</b></p>
+                    <p style="color: black;"> This fuction you may see a mount of <br>  video course that you enroll<br>and download.</p>
+                </Center>
+               
+                </div>
+            </td>
+        </div>
+    </td>
+    </tr>
+</table>
+</div>
+             
+
+
+
+
+
+
+
+
+<h2><p style ="color: royalblue;"></p>
+
+
+                <div class="space-top-60"></div>
+                <div style="background-color: royalblue; color: white; text-align: center; padding: 50px;">
+                <hr style="width: 30px; height: 5px; background-color: white;">
+            <p>
+                <br>
+
+
+                <center>
+           <a href="https://www.figma.com/proto/xBf8hVtwJRl1Ml7qT6n6go/STEM4U?page-id=0%3A1&node-id=235%3A125&viewport=97%2C435%2C0.59&scaling=scale-down&starting-point-node-id=235%3A125">Testing Our App Now</a>
+            </center>
+         </div>
+
+
+
+         <center><br><br><br>
+             <img src="logo.png" width="250px"> <br><br><br>
+        
+         
+            <p style="color: royalblue">
+                
+                <a href="#" style="color: dimgray; text-decoration: none; padding-right: 20px;">HOME</a>
+                <a href="#" style="color: dimgray; text-decoration: none; padding-right: 20px;">SERVICE</a>
+                <a href="#" style="color: dimgray; text-decoration: none; padding-right: 20px;">ABOUT</a>
+                <a href="#" style="color: dimgray; text-decoration: none; padding-right: 20px;">PLACE</a>
+                <a href="#" style="color: dimgray; text-decoration: none; padding-right: 20px;">CONTACT US</a>
+        
+            </p>
+         </center>
+         
+        
+         <div class="space-top-60"></div>
+        
+         <center style="font-size: 24px;">
+        
+        </center>
+    </h1>
+        
+        </body>
+  
+</html>
